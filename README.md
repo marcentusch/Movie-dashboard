@@ -1,5 +1,9 @@
 Notes
 
+I have deployed this project on Heroku so you can easily see my work. 
+Here is the link: https://fathomless-waters-19692.herokuapp.com/
+
+
 I have made a dashboard that gets data from the ghibli API that was specified in the assignment.
 It is possible to sort the movies on the dashboard.
     Since i get data from an API i can sort by more interesting stuff like Rotten Tomatoes score.
@@ -21,7 +25,7 @@ Instead of a list of movies i have created a dashboard that shows each movie in 
 _________________________________________________________________________________________________
 Tools and libraries
 
-I choose to use NodeJS with Express as a server because this is what i have most experience with.
+I choose to use NodeJS with Express as a server because this is what i have most experience with. 
+    This stack also makes it easy to deploy and maintain code on Heroku
 I choose ejs as a template engine because it is easy and fast to set up.
 I use Bootstrap to make the application responsive for all platforms.
-
