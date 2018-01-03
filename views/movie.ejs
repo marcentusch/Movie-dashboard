@@ -1,0 +1,33 @@
+
+<% include partials/header %>
+
+    <!-- Movie details -->
+    <div class="container mt-5">
+        <h2 class="my-3"> <%= movie.title %></h2>
+        <!-- Description -->
+        <h5 class="font-weight-bold"> Description</h5>
+        <p> <%= movie.description %> </p>
+        <!-- Release date -->
+        <h5 class="font-weight-bold">Release date</h5>
+        <p> <%= movie.release_date %> </p>
+        <!-- Director -->
+        <h5 class="font-weight-bold"> Director</h5>
+        <p> <%= movie.director %> </p>
+        <!-- Producer -->
+        <h5 class="font-weight-bold"> Producer</h5>
+        <p> <%= movie.producer %> </p>
+        <!-- Title -->
+        <h5 class="font-weight-bold"> Rotten Tomatoes Score</h5>
+        <p> <%= movie.rt_score %> </p>
+        
+        
+    </div>
+
+    
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js" integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4" crossorigin="anonymous"></script>
+  </body>
+</html>

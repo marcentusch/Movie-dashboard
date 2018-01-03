@@ -1,0 +1,6 @@
+{
+    "port": "8080",
+    "ghibliApi": {
+        "baseUrl": "https://ghibliapi.herokuapp.com"
+    }
+}
