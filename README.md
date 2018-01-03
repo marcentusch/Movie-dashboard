@@ -14,7 +14,7 @@ Considerations
 I have purposely avoided to use a database since I wanted to focus on other features and functionality listed in the assignment. However, I have set up the application so that it is easy to add a database. This would allow for more features such as comments or notes.
 
 
-Instead of a list of movies I have created a dashboard which shows each movie in a Bootstrap Card. This makes it easier to show more data without the UI being too overwhelming. This also makes it easier to make the design responsive. (skide godt!)
+Instead of a list of movies I have created a dashboard which shows each movie in a Bootstrap Card. This makes it easier to show more data without the UI being too overwhelming. This also makes it easier to make the design responsive.
 
 
 ___________________________________________________________________________________________________________________________________________
